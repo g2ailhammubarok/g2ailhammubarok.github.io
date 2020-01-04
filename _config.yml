@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Ilham Mubarok
-title:  IT Student
+title: IT Student
 email: g2a.ilhammubarok@gmail.com
 website: www.github.com/g2ailhammubarok
 
@@ -43,7 +43,7 @@ more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
    - Rock climbing
    - Gaming
-   - Knitting
+   - Eating
    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
