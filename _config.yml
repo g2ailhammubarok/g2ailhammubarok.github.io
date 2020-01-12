@@ -22,7 +22,7 @@ linkedin_username: ilhambara
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile-me.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Bara and I'm an Informatics Engineering Student. I prefer to know as a Student instead of Programmer, cause i just write a code. I have interest in contributing to Open Source Project or team up with others to solving some Problems.
 
