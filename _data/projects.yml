@@ -1,8 +1,8 @@
 - layout: top-middle
-  name: Super awesome project
+  name: This awesome project
   link: github.com/g2ailhammubarok
   github: g2ailhammubarok
   quote: >
     This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way of learning <mark>React.js</mark> and it has grown into a fully fledged app. I have learned many skills through this and I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you to make one.
+    I started this project as a way of learning one of the <b>Ruby Gem</b> called <mark>Jekyll</mark> and it has grown into a fully fledged app. I have learned many skills through this and I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you to make one.
