@@ -1,7 +1,8 @@
 ## Modern Resume Theme. 
 [![Generic badge](https://img.shields.io/badge/Web-Development-teal.svg?style=for-the-badge)](https://github.com/sproogen/modern-resume-theme) 
 
-This **Portfolio** is forked from: https://github.com/sproogen/ work to **`building portfolio`**. 
+This **Portfolio** is forked from: https://github.com/sproogen/ work to **`building portfolio`**. Really appreciate your work.
+
 It's always good to have a personal website.
 
 
