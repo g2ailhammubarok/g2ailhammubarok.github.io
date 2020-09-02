@@ -1,11 +1,10 @@
 ## Modern Resume Theme. 
-[![Generic badge](https://img.shields.io/badge/Web-Development-teal.svg?style=for-the-badge)](https://github.com/sproogen/modern-resume-theme) 
+[![Generic badge](https://img.shields.io/badge/Web-Development-teal.svg?style=for-the-badge)](https://github.com/ilhambara/ilhambara.github.io) 
 
-This **Portfolio** is forked from: https://github.com/sproogen/ work to **`building portfolio`**. Really appreciate your work.
 
 It's always good to have a personal website.
 
 
 ### Also Check My Repositories
 
-- [Another Repositories](https://github.com/g2ailhammubarok?tab=repositories)
+- [Another Repositories](https://github.com/ilhambara?tab=repositories)
