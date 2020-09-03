@@ -25,6 +25,12 @@ h2 {
   font-size: 2rem;
 }
 
+/* wrapper */
+
+.wrapper {
+  margin: 0 8rem;
+}
+
 /* navbar */
 
 nav ul {
@@ -52,7 +58,7 @@ a {
   display: flex;
   left: 0;
   width: 100%;
-  margin-left: 4rem;
+  margin-left: 8rem;
 }
 
 .nav-menu {
@@ -60,17 +66,17 @@ a {
   justify-content: flex-end;
   left: 0;
   width: 100%;
-  margin-right: 4rem;
+  margin-right: 8rem;
 }
 
 .nav-list-home {
   display: flex;
-  font-family: Jost, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Jost, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .nav-list-home a {
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1.1rem;
   font-weight: 700;
 }
@@ -82,7 +88,7 @@ a {
 .nav-list a {
   display: block;
   font-size: 1.2rem;
-  padding: 1.4rem 1.1rem;
+  padding: 1.5rem 1.1rem;
 }
 
 .nav-list a:hover {
@@ -100,7 +106,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items: left;
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(62deg, #f9f9f9 0%, #e8e8e8 100%);
@@ -133,6 +138,40 @@ a {
   margin-top: 1.6rem;
   margin-left: 4rem;
   padding-left: 1.2rem;
+}
+
+/* media query -> welcome-section */
+
+@media only screen and (max-width: 640px) {
+
+  #welcome-section {
+    height: 70vh;
+  }
+
+  #welcome-section h1 {
+    font-size: 1.5rem;
+    margin: 10rem 2rem 0 2rem;
+    padding-left: 0;
+  }
+  
+  #welcome-section h2 {
+    font-size: 2.5rem;
+    margin: 0 2rem 0 2rem;
+    padding-left: 0;
+  }
+  
+  #welcome-section span {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    padding-left: 0.5rem;
+  }
+  
+  #welcome-section p {
+    font-size: 0.8rem;
+    margin: 1rem 2rem 0 2rem;
+    padding-left: 0rem;
+    line-height: 1.4rem;
+  }
 }
 
 /* extras */
@@ -189,7 +228,7 @@ a {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -224,7 +263,7 @@ a {
 
 .project-tile {
   padding: 2rem;
-  padding-bottom: 2.4rem;
+  padding-bottom: 2.2rem;
   font-size: 1.4rem;
   font-weight: 600;
   text-align: center;
@@ -249,6 +288,52 @@ a {
 
 .btn-see-other:hover {
   background: #656d77;
+}
+
+
+/* media query -> project-section */
+
+@media only screen and (max-width: 640px) {
+  
+  .projects-section {
+    margin: 2rem;
+    margin-top: 0;
+    padding: 4rem 0 0 0;
+  }
+  
+  .projects-section-header {
+    margin: 2rem 0 1rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .projects-desc {
+    margin-bottom: 2.5rem;
+    font-size: 0.6rem;
+    text-align: left;
+  }
+  
+  .project {
+    width: 100%;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .project-tile {
+    font-size: 0.8rem;
+    padding: 1.2rem;
+  }
+
+  .btn {
+    padding: 0.5rem 0.8rem;
+  }
+  
+  .btn-see-other {
+    font-size: 1rem;
+  }
 }
 
 /* appearances section */
@@ -328,6 +413,64 @@ a {
 }
 
 
+/* media query -> appearances-section */
+
+@media only screen and (max-width: 640px) {
+  
+  .appearances-section {
+    margin: 2rem;
+    padding: 4rem 0 0 0;
+  }
+
+  .appearances-section-header {
+    margin: 2rem 0 1rem 0;
+    font-size: 1.1rem;
+  }
+
+  .appearances-desc {
+    margin-bottom: 2.5rem;
+    font-size: 0.6rem;
+    text-align: left;
+  }
+
+  .appearances-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon-grid {
+    height: 80px;
+  }
+
+  .desc-grid {
+    margin-left: 0;
+    text-align: center;
+    width: auto;
+  }
+
+  .desc-grid h3 {
+    font-size: 0.8rem;
+  }
+
+  .desc-grid p {
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+  }
+
+  .desc-grid label {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .desc-grid span {
+    width: auto;
+    text-align: center;
+    font-size: 0.5rem;
+    margin: 15px 2px 0 2px;
+  }
+}
+
+
 /* contact section */
 
 hr {
@@ -341,7 +484,7 @@ hr {
 .contact-section {
   margin: 0 4rem;
   padding: 0 1.1rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -382,65 +525,26 @@ footer {
 }
 
 
+/* media query -> contact-section and footer */
 
+@media only screen and (max-width: 640px) {
 
+  .contact-section {
+    height: 30vh;
+    margin: 2rem;
+    padding: 4rem 0 0 0;
+  }
 
-/* media query */
+  .contact-links {
+    flex-direction: column;
+  }
 
-@media (max-width: 640px) {
-  
-  #welcome-section h1 {
-    font-size: 1.5rem;
-  }
-  
-  #welcome-section h2 {
-    font-size: 3rem;
-    margin-right: 2rem;
-  }
-  
-  #welcome-section span {
-    font-size: 3rem;
-    margin-right: 2rem;
-  }
-  
-  #welcome-section p {
-    font-size: 0.8rem;
-    margin-top: 1rem;
-    margin-right: 4rem;
-    padding-left: 1rem;
-  }
-  
-  .projects-section-header {
-    margin: 2rem 0 1rem 0;
-    font-size: 1.1rem;
-  }
-  
-  .projects-desc {
-    margin-bottom: 2.5rem;
-    font-size: 0.6rem;
-    text-align: left;
-  }
-  
-  .project {
-    width: 70%;
-    margin-right: 4rem;
-  }
-  
-  .projects-grid {
-    grid-gap: 2.5rem;
-    margin-bottom: 3rem;
-  }
-  
-  .project-tile {
-    font-size: 0.8rem;
-    padding: 1.2rem;
-  }
-  
-  .btn {
-    padding: 0.5rem 0.8rem;
-  }
-  
-  .btn-see-other {
+  .contact-details {
     font-size: 1rem;
+  }
+
+  .footer p{
+    width: fit-content;
+    font-size: 0.8rem;
   }
 }
