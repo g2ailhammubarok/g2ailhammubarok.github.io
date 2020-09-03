@@ -31,6 +31,14 @@ h2 {
   margin: 0 8rem;
 }
 
+
+@media only screen and (max-width: 640px) {
+
+  .wrapper {
+    margin: 0;
+  }
+}
+
 /* navbar */
 
 nav ul {
@@ -93,6 +101,33 @@ a {
 
 .nav-list a:hover {
   background: #e8e5e5;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+  .nav-home {
+    margin: 0;
+    margin-left: 1rem;
+  }
+
+  .nav-list-home a {
+    font-size: 1.2rem;
+    padding: 2rem 1rem;
+  }
+
+  .nav-list {
+    margin-right: 1rem;
+  }
+
+  .nav-list a {
+    font-size: 1rem;
+    padding: 2.25rem 0.5rem;
+  }
+
+  .nav-menu {
+    margin-right: 0;
+  }
 }
 
 /* welcome section */
@@ -436,6 +471,7 @@ a {
   .appearances-grid {
     display: flex;
     flex-direction: column;
+    padding: 0 0.5rem;
   }
 
   .icon-grid {
@@ -453,7 +489,7 @@ a {
   }
 
   .desc-grid p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
   }
 
@@ -532,7 +568,7 @@ footer {
   .contact-section {
     height: 30vh;
     margin: 2rem;
-    padding: 4rem 0 0 0;
+    padding: 0;
   }
 
   .contact-links {
