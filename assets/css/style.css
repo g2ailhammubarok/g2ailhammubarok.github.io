@@ -106,6 +106,10 @@ a {
 
 @media only screen and (max-width: 640px) {
 
+  .navbar {
+    height: 60px;
+  }
+
   .nav-home {
     margin: 0;
     margin-left: 1rem;
@@ -113,7 +117,7 @@ a {
 
   .nav-list-home a {
     font-size: 1.2rem;
-    padding: 2rem 1rem;
+    padding: 1rem;
   }
 
   .nav-list {
@@ -122,7 +126,7 @@ a {
 
   .nav-list a {
     font-size: 1rem;
-    padding: 2.25rem 0.5rem;
+    padding: 1.27rem 0.5rem;
   }
 
   .nav-menu {
@@ -184,28 +188,27 @@ a {
   }
 
   #welcome-section h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 10rem 2rem 0 2rem;
     padding-left: 0;
   }
   
   #welcome-section h2 {
-    font-size: 2.5rem;
+    font-size: 3.8rem;
     margin: 0 2rem 0 2rem;
     padding-left: 0;
   }
   
   #welcome-section span {
-    font-size: 2.5rem;
-    margin-right: 2rem;
+    font-size: 3.5rem;
     padding-left: 0.5rem;
   }
   
   #welcome-section p {
-    font-size: 0.8rem;
-    margin: 1rem 2rem 0 2rem;
+    font-size: 1rem;
+    margin: 1.5rem 2rem 0 2rem;
     padding-left: 0rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
   }
 }
 
@@ -338,12 +341,12 @@ a {
   
   .projects-section-header {
     margin: 2rem 0 1rem 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   
   .projects-desc {
     margin-bottom: 2.5rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-align: left;
   }
   
@@ -459,19 +462,19 @@ a {
 
   .appearances-section-header {
     margin: 2rem 0 1rem 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .appearances-desc {
     margin-bottom: 2.5rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-align: left;
   }
 
   .appearances-grid {
     display: flex;
     flex-direction: column;
-    padding: 0 0.5rem;
+    padding: 0 0.4rem;
   }
 
   .icon-grid {
@@ -481,11 +484,10 @@ a {
   .desc-grid {
     margin-left: 0;
     text-align: center;
-    width: auto;
   }
 
   .desc-grid h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .desc-grid p {
