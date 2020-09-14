@@ -184,7 +184,8 @@ a {
 @media only screen and (max-width: 640px) {
 
   #welcome-section {
-    height: 70vh;
+    display: flex;
+    height: 100vh;
   }
 
   #welcome-section h1 {
@@ -385,6 +386,7 @@ a {
 .appearances-grid {
   display: flex;
   margin: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 .appearances-section-header {
@@ -406,14 +408,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 140px;
 }
 
 .desc-grid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 140px;
   width: 80vw;
   margin-left: 3.5rem;
   line-height: 2rem;
