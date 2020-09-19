@@ -435,6 +435,10 @@ a {
   letter-spacing: 0.04rem;
 }
 
+.text-italic {
+  font-style: italic;
+}
+
 /* for label - span */
 
 .span-orange {
